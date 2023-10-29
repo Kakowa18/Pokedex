@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PikachuDéx - KK</title>
 
     <!-- js script files -->
     <script defer src="script.js"></script>
     <script defer src="header.js"></script>
 
     <!-- css files -->
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="header.css">
 
     <!-- favicon -->
@@ -24,9 +24,14 @@
         rel="stylesheet">
 </head>
 
-<body onload="init()">
+<body onload="init()" >
     <div w3-include-html="header.html"></div>
-    <div id="info-card">ToriP</div>
+    <div id="info-card">
+        <h2 id="pokemon-name"></h2>
+        <img id="pokemonImg" src="" alt="">
+        <p id="first-propertie"></p>
+        <p id="second-propertie"></p>
+    </div>
 
 </body>
 
